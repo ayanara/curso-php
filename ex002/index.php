@@ -34,6 +34,8 @@
   echo soma(10, 20); // 30
   ?>
 
+  <H2>Tipos de tags</H2>
+
   <?php //Super tag PHP
   $nome = "Ayanara Nathane";
   echo "<p>O meu nome é $nome</p>";
