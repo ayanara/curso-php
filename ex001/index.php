@@ -7,9 +7,11 @@
 </head>
 <body>
 
-<h1>Dados do Servidor</h1>
+<h1>Dados do Servidor ss</h1>
 
 <?php 
+  require_once('lib.html');
+  require_once('../ex003/index.php');
   phpinfo();
 ?>
   
