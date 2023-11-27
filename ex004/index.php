@@ -49,6 +49,9 @@
     <label for="nome">Nome:</label>
     <input type="text" name="nome" id="nome" placeholder="Seu nome">
 
+    <label for="sobrenome">Sobrenome:</label>
+    <input type="text" name="sobrenome" id="nome" placeholder="Seu sobrenome">
+
     <label for="email">E-mail:</label>
     <input type="email" name="email" id="email" placeholder="Seu e-mail">
 

@@ -5,6 +5,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
   // Este código obtém os dados do formulário de cadastro usando as superglobais `$_POST`.
   $nome = $_POST['nome'];
+  // $sobrenome = $_POST['sobrenome'];
   $email = $_POST['email'];
   $senha = $_POST['senha'];
   $confirmar_senha = $_POST['confirmar_senha'];
@@ -44,16 +45,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     <?php
 
-    // Obtém o nome do usuário
+    // Obtém o nome e sobrenome do usuário
     $nome = $_POST['nome'];
+    $sobrenome = $_POST['sobrenome'];
 
     // Exibe uma mensagem de boas-vindas
-    echo "<h1>Olá, $nome!</h1>";
+    echo "<h1>Olá, $nome $sobrenome!</h1>";
     echo "<p>Seu cadastro foi realizado com sucesso. Você receberá um e-mail de confirmação em breve.</p>";
 
     ?>
     <!-- Este código redireciona o usuário para a página inicial. -->
-    <a href="index.php">Voltar para a página inicial</a>
+    <p><a href="index.php">Voltar para a página inicial</a></p>
+
 
   </body>
 
